@@ -36,7 +36,6 @@ class MovieSearchList extends Component {
     const plot = this.props.search[0] && this.props.search[0].Plot;
     const year = this.props.search[0] && this.props.search[0].Year;
     const pic = this.props.search[0] && this.props.search[0].Poster;
-    console.log('data:', firstTitle)
     if (!this.props.search[0]) {return null};
 
     return (
@@ -65,7 +64,6 @@ class MovieSearchList extends Component {
 }
 
 function mapStateToProps({ search }) {
-  console.log('this is:', search);
   return { search }; // es6 // { weather } === { weather: weather }
 }
 

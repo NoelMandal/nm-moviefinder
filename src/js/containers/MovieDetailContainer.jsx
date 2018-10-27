@@ -72,7 +72,6 @@ class MovieDetailContainer extends React.Component {
 }
 
 function mapStateToProps({ search }) {
-  console.log("this is:", search);
   return { search }; // es6 // { weather } === { weather: weather }
 }
 
