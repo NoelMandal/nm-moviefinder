@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API_KEY = '8730e0e'
-const ROOT_URL = `http://www.omdbapi.com/?apikey=${API_KEY}`;
+const ROOT_URL = `https://www.omdbapi.com/?apikey=${API_KEY}`;
 
 export const FETCH_DATA = "FETCH_DATA";
 // export const FETCH_INFO = "FETCH_INFO";
